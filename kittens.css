@@ -1,0 +1,43 @@
+h1 {
+    color: blue;
+    text-align: center;
+    font-family: sans-serif;
+}
+#description {
+    color: black;
+    font-weight: bold;
+}
+
+.emphasize {
+    background-color: #ffffcc;
+    text-align: center;
+}
+
+#border {
+    border: 2px solid black;
+    margin-right: 5em;
+    margin-left: 5em;
+}
+
+p {
+    text-align: center;
+}
+
+body{
+    background-color: #ff9966;
+
+}
+
+img{
+    margin: 40px;
+}
+
+form{
+    background-color: #ff6600;
+    border: 2px solid red;
+}
+
+.picture {
+    display: inline-block;
+    text-align: center;
+}

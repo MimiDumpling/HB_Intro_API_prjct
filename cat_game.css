@@ -1,0 +1,18 @@
+h1 {
+    color: purple;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.picture {
+	display: inline-block;
+    text-align: center;
+    margin: 40px;
+}
+
+form {
+    color: purple;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+}

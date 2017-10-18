@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link rel="stylesheet" href="static/cat_game.css">
+
+  </head>
+  <body>
+
+  	<center><img class= "picture" height="500" width="1050" src= "http://petsfans.com/wp-content/uploads/2014/11/edfsaf.jpg"></center>
+
+  	<h1><font size="10">Here are the five pieces of art closest to your paws!</font></h1>
+
+    <table>
+      <th>Title</th>
+      <th>Artist</th>
+      <th>Location</th>
+      <th>Distance from you</th>
+      <th>Material</th>
+    {% for art in five_shortest %}
+    <tr>
+      {% for value in art.values() %}
+        <td>{{value}}</td>
+        
+      {% endfor %}
+    </tr>  
+    {% endfor %}
+    </table>
+
+    <body>
+    	
+	</body>
+
+  </body>
+</html>

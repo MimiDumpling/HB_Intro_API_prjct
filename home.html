@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/skeleton.css') }}">
+
+  </head>
+  <body>
+
+  	<center><img class= "picture" height="500" width="1050" src = "http://petsfans.com/wp-content/uploads/2014/11/edfsaf.jpg"></center>
+
+  	<h1><font size="10">Kitty's Choose Your Own Adventure</font></h1>
+
+    	<font size="6">Hello! Welcome!<br><br>
+        You've entered the realm of kitty-dom. Today, you can play a game as a kitty or go look for artwork as a kitty.<br><br>
+        Which will you choose? Kitty Game or Kitty Finds Art?
+    	</font>
+	
+    	<form action= "/game-type">
+  		Type Game or Art: <input type="text" name="game-name">
+      <input type = "submit">
+  		</form>
+
+  		{{furr_name}}
+  		{{show_greeting}}
+
+  </body>
+</html>

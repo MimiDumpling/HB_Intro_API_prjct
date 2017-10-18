@@ -1,0 +1,10 @@
+commander furr,43
+HIYA,300
+MISTER PAWS,0
+AVA,150
+Cupcake,300
+Lori,0
+Mr.FUR,300
+meow,300
+Jessica,300
+a,-150
